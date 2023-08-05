@@ -28,4 +28,4 @@ I have commented out the configuration as a server part, it should be uncommente
 
 **File: lock_root_login.sh** - This creates a standard user account, adds the account to the sudoer group with extended privileges. It assigns a password to the standard user from a file called users-password.txt and forces the user to change their password upon first login. It then disables direct root login on the remote server and directs the system to request for user password and not root password when privilege commands are attempted.
 
-**File: automated_server_hardening.sh** - This is the controller script that controls the process and execution of every process mentioned above, using a case statement.
+**File: automated_server_hardening.sh** - This is the script to be executed for evrything to happen. This is the controller script that controls the process and execution of every process mentioned above, using a case statement.
