@@ -1,6 +1,6 @@
-This is an automated server hardening project.
+# **This is an automated server hardening project.**
 
-**Created by: Stella Gift ORIJI.**
+## ***Created by: Stella Gift ORIJI.***
 
 It is a bash script, hence uses bash interpreter for execution.
 The program performs all action on a remote server, being executed on a local machine. It assumes that you have SSH connection to the target remote server and has permission to execute scripts on it.
